@@ -1,0 +1,9 @@
+desc
+1 = readfile input.txt
+2 = grep sample
+3 = sort
+4 = replace sam sem
+6 = writefile output.txt
+5 = dump dump.txt
+csed
+1 -> 2 -> 3 -> 4 -> 5 -> 6
